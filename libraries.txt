@@ -6,4 +6,3 @@ LiquidCrystal I2C
 
 Blynk
 WiFi
-BlynkESP32_BT_WF

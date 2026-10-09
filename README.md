@@ -102,3 +102,20 @@ The buzzer remains OFF when neither warning condition is detected.
 | Any one cell is at low voltage | LOW VOLTAGE | ON |
 | Neither warning condition is detected | NORMAL | OFF |
 
+## 🌐 Blynk IoT Monitoring
+
+The ESP32 is integrated with the Blynk IoT platform to enable remote monitoring of battery cell voltages through Wi-Fi.
+
+### Features
+- Remote monitoring of three battery cell voltages.
+- Visualization of battery parameters on the Blynk dashboard.
+- Monitoring of battery status, depending on the implemented dashboard features.
+
+### Working
+1. The ESP32 connects to Wi-Fi.
+2. It reads the three simulated battery cell voltage inputs.
+3. The configured voltage values are sent to Blynk using virtual pins.
+4. Users can monitor the available battery data through the Blynk dashboard.
+
+
+
